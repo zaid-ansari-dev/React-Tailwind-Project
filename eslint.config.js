@@ -1,7 +1,7 @@
 import js from '@eslint/js'
-import globals from './CRUD To Do Project/node_modules/globals'
-import reactHooks from './CRUD To Do Project/node_modules/eslint-plugin-react-hooks'
-import reactRefresh from './CRUD To Do Project/node_modules/eslint-plugin-react-refresh'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
